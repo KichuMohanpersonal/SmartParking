@@ -3,6 +3,7 @@ package Home;
 import java.awt.BorderLayout;
 
 import java.awt.EventQueue;
+import java.awt.Font;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -64,6 +65,14 @@ public class first extends JFrame {
 				
 			}
 		});
+		
+		JLabel lblUserName = new JLabel("Smart Parking System");
+		lblUserName.setFont(new Font("Tahoma", Font.BOLD, 15));
+		lblUserName.setBounds(170, 30, 250, 50);
+		contentPane.add(lblUserName);
+		
+		
+		
 		btnBack.setBounds(170, 100, 172, 80);
 		contentPane.add(btnBack);
 		

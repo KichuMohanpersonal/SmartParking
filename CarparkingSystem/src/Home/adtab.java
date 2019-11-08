@@ -201,6 +201,58 @@ private final ButtonGroup buttonGroup_2 = new ButtonGroup();
 		radioButton_3.setBackground(SystemColor.activeCaptionBorder);
 		panel_3.add(radioButton_3);
 		
+		//For adding more slots
+		
+		
+		
+				JRadioButton radioButton_4 = new JRadioButton("Slot 5");
+				radioButton_4.setBounds(510, 306, 80, 23);
+				radioButton_4.setFont(new Font("Tahoma", Font.ITALIC, 15));
+				buttonGroup.add(radioButton_4);
+				radioButton_4.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent arg0) {
+						c="5";
+						b="Booked";
+					}
+				});
+				radioButton_4.setBackground(SystemColor.activeCaptionBorder);
+				panel_3.add(radioButton_4);
+				
+				
+				//6th slot
+				
+				
+				
+				JRadioButton radioButton_5 = new JRadioButton("Slot 6");
+				radioButton_5.setBounds(600, 306, 80, 23);
+				radioButton_5.setFont(new Font("Tahoma", Font.ITALIC, 15));
+				buttonGroup.add(radioButton_5);
+				radioButton_5.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent arg0) {
+						c="6";
+						b="Booked";
+					}
+				});
+				radioButton_5.setBackground(SystemColor.activeCaptionBorder);
+				panel_3.add(radioButton_5);
+				
+				
+				
+				JRadioButton radioButton_6 = new JRadioButton("Slot 7");
+				radioButton_6.setBounds(150, 356, 80, 23);
+				radioButton_6.setFont(new Font("Tahoma", Font.ITALIC, 15));
+				buttonGroup.add(radioButton_6);
+				radioButton_6.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent arg0) {
+						c="7";
+						b="Booked";
+					}
+				});
+				radioButton_6.setBackground(SystemColor.activeCaptionBorder);
+				panel_3.add(radioButton_6);
+				
+				
+				//
 		
 		
 		JButton btnSubmit = new JButton("Submit");
